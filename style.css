@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Itim", cursive;
+  color: white;
+}
+
+body {
+  background: url(https://image.freepik.com/free-vector/new-realistic-neon-sign-quiz-frame-logo-decoration-covering-dark-wall-background_175838-963.jpg)
+    no-repeat center center/cover;
+}
+.main-div {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.inner-div {
+  width: 40vw;
+  background-color: rgba(245, 245, 245, 0);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.inner-div ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.inner-div button {
+  align-self: center;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.inner-div button:hover {
+  cursor: pointer;
+  background-color: rgb(71, 71, 235);
+}
+
+.score {
+  height: 30px;
+  width: 100px;
+  margin-top: -50px;
+  background-color: lightblue;
+  display: none;
+}
+
+#marks {
+  text-align: center;
+}
+
+.btn {
+  align-self: center;
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(71, 71, 235);
+}
+
+.inner-div ul li label:hover {
+  cursor: pointer;
+}
